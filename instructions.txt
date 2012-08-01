@@ -1,0 +1,47 @@
+Follow these instructions . .
+
+#### Upload the .js file to your server, and put this line somewhere between the <head></head> tags at the top of your page.
+
+<script type="text/javascript" src="calculate.js"></script>
+
+#### Upload the background.jpg file to an images folder, or modify the table background in the code to reflect the location of where you uploaded the background image to.
+
+#### Then put this where you want the calculator to appear on your page.
+
+<form name="calculator">
+<table border="0" cellpadding="2" cellspacing="0" background="/images/background.jpg" width="233" height="259">
+<tr><td align="center" style="padding-bottom:0px;padding-top:15px"><input type="text" name="win" value="0" style="height:30px;width:190px;text-align:right;font-size:20px;font-weight:bold;border:1px solid #666666;padding-right:2px;" maxlength='15'></td></tr>
+<tr><td>
+<table border="0" cellpadding="5" cellspacing="1" align="center">
+
+<tr><td style="padding-top:0px"><input type="button" value="CE" style="width:40px" onClick="calc('CE')"></td>
+<td style="padding-top:0px"><input type="button" value="C" style="width:40px" onClick="calc('C')"></td>
+<td style="padding-top:0px"><input type="button" value="+/-" style="width:40px" onClick="calc('+/-')"></td>
+<td style="padding-top:0px"><input type="button" value="%" style="width:40px" onClick="calc('%')"></td></tr>
+
+<tr><td><input type="button" value="7" style="width:40px" onClick="calc('7')"></td>
+<td><input type="button" value="8" style="width:40px" onClick="calc('8')"></td>
+<td><input type="button" value="9" style="width:40px" onClick="calc('9')"></td>
+<td><input type="button" value="/" style="width:40px" onClick="calc('/')"></td></tr>
+
+<tr><td><input type="button" value="4" style="width:40px" onClick="calc('4')"></td>
+<td><input type="button" value="5" style="width:40px" onClick="calc('5')"></td>
+<td><input type="button" value="6" style="width:40px" onClick="calc('6')"></td>
+<td><input type="button" value="x" style="width:40px" onClick="calc('*')"></td></tr>
+
+<tr><td><input type="button" value="1" style="width:40px" onClick="calc('1')"></td>
+<td><input type="button" value="2" style="width:40px" onClick="calc('2')"></td>
+
+<td><input type="button" value="3" style="width:40px" onClick="calc('3')"></td>
+<td><input type="button" value="-" style="width:40px" onClick="calc('-')"></td></tr>
+
+<tr><td><input type="button" value="0" style="width:40px" onClick="calc('0')"></td>
+<td><input type="button" value="." style="width:40px" onClick="calc('.')"></td>
+<td><input type="button" value="=" style="width:40px" onClick="calc('=')"></td>
+<td><input type="button" value="+" style="width:40px" onClick="calc('+')"></td></tr>
+</table>
+</td></tr>
+</table>
+</form>
+
+#### That's it! Have fun!

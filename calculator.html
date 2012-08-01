@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript" src="calculate.js"></script>
+</head>
+<body onload="document.calculator.win.value=0">
+<form name="calculator">
+<table border="0" cellpadding="2" cellspacing="0" background="background.jpg" width="699" height="777">
+<tr><td align="center" style="padding-bottom:0px;padding-top:15px"><input type="text" name="win" value="0" style="height:120px;width:480px;text-align:right;font-size:45px;font-weight:bold;border:1px solid #666666;padding-right:2px;" maxlength='15'></td></tr>
+<tr><td>
+<font size="6">
+<table border="0" cellpadding="5" cellspacing="1" align="center">
+<tr><td style="padding-top:0px"><input type="button" value="CE" style="width:120px;height:100px;font-size:35px" onClick="calc('CE')"></td>
+<td style="padding-top:0px"><input type="button" value="C" style="width:120px;height:100px;font-size:35px" onClick="calc('C')"></td>
+<td style="padding-top:0px"><input type="button" value="+/-" style="width:120px;height:100px;font-size:35px" onClick="calc('+/-')"></td>
+<td style="padding-top:0px"><input type="button" value="%" style="width:120px;height:100px;font-size:35px" onClick="calc('%')"></td></tr>
+
+<tr><td><input type="button" value="7" style="width:120px;height:100px;font-size:35px" onClick="calc('7')"></td>
+<td><input type="button" value="8" style="width:120px;height:100px;font-size:35px" onClick="calc('8')"></td>
+<td><input type="button" value="9" style="width:120px;height:100px;font-size:35px" onClick="calc('9')"></td>
+<td><input type="button" value="/" style="width:120px;height:100px;font-size:35px" onClick="calc('/')"></td></tr>
+
+<tr><td><input type="button" value="4" style="width:120px;height:100px;font-size:35px" onClick="calc('4')"></td>
+<td><input type="button" value="5" style="width:120px;height:100px;font-size:35px" onClick="calc('5')"></td>
+<td><input type="button" value="6" style="width:120px;height:100px;font-size:35px" onClick="calc('6')"></td>
+<td><input type="button" value="x" style="width:120px;height:100px;font-size:35px" onClick="calc('*')"></td></tr>
+
+<tr><td><input type="button" value="1" style="width:120px;height:100px;font-size:35px" onClick="calc('1')"></td>
+<td><input type="button" value="2" style="width:120px;height:100px;font-size:35px" onClick="calc('2')"></td>
+
+<td><input type="button" value="3" style="width:120px;height:100px;font-size:35px" onClick="calc('3')"></td>
+<td><input type="button" value="-" style="width:120px;height:100px;font-size:35px" onClick="calc('-')"></td></tr>
+
+<tr><td><input type="button" value="0" style="width:120px;height:100px;font-size:35px" onClick="calc('0')"></td>
+<td><input type="button" value="." style="width:120px;height:100px;font-size:35px" onClick="calc('.')"></td>
+<td><input type="button" value="=" style="width:120px;height:100px;font-size:35px" onClick="calc('=')"></td>
+<td><input type="button" value="+" style="width:120px;height:100px;font-size:35px" onClick="calc('+')"></td></tr>
+</font>
+</table>
+</td></tr>
+</table>
+</form>
+</body>
+</html>
